@@ -1,0 +1,54 @@
+body {
+  font-family: Outfit, sans-serif;
+  text-align: center;
+  margin: 0;
+  background: hsl(212, 45%, 89%);
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 288px;
+  background: white;
+  border-radius: 1.5em;
+  padding: 1em;
+}
+
+.container img {
+  border-radius: 0.5em;
+  width: 100%;
+}
+
+.container h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 22px;
+  margin: 1em 0;
+}
+
+.container p {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  margin: 0 0.75em;
+  margin-bottom: 1.2em;
+}
+
+.attribution {
+  color: hsl(218, 44%, 22%);
+  position: absolute;
+  bottom: 8px;
+}
+
+.attribution a {
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
